@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Простой Сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .qr-code {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать на мой сайт!</h1>
+</header>
+
+<section>
+    <h2>О нас</h2>
+    <p>Мы — компания, которая предоставляет лучшие услуги по веб-разработке. Наши эксперты помогут создать сайт под любой запрос. Мы гарантируем качество и оперативность!</p>
+    <!-- Пример картинки -->
+    <img src="qwe.jpg" width="660px" height="440px" alt="Картинка сайта">
+</section>
+
+<section>
+    <h2>Наша работа</h2>
+    <p>Вот несколько примеров наших проектов:</p>
+    <!-- Еще одна картинка для примера -->
+    <img src="ewq.jpg" alt="Пример проекта" >
+    <p>Мы гордимся каждым завершенным проектом и рады предложить свои услуги клиентам по всему миру.</p>
+</section>
+
+<section>
+    <h2>Контакты</h2>
+    <p>Связаться с нами можно по телефону, электронной почте или написать нам сообщение через SMS:</p>
+    <div class="contact-info">
+        <!-- Телефон с переходом на звонок -->
+        <p><strong>Телефон:</strong> <a href="tel:+71234567890">+7 123 456 78 90</a></p>
+        
+        <!-- Письмо на почту -->
+        <p><strong>Email:</strong> <a href="mailto:example@mail.com">example@mail.com</a></p>
+        
+        <!-- SMS с переходом на написание сообщения -->
+        <p><strong>Написать SMS:</strong> <a href="sms:+71234567890">Отправить SMS на +7 123 456 78 90</a></p>
+    </div>
+</section>
+
+<div class="qr-code">
+    <p>Сканируйте QR код, чтобы посетить сайт:</p>
+    <!-- Вставка QR-кода -->
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://ваш_сайт&size=150x150" alt="QR код">
+</div>
+
+</body>
+</html>
